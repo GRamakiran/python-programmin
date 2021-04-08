@@ -12,6 +12,7 @@ class Patient:
 		self.pin=pin
 		
 	def verifyUser(self,patientid,password):
+		print("this method is from patient")
 		if(patientid==self.patientid and password==self.password):
 			print("Successfully login")
 		else:
